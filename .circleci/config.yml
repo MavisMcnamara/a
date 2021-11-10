@@ -8,7 +8,7 @@ working_dir: &working_dir ~/app
         name: Run tests
         command: |
                     sudo apt update && sudo apt install git aria2 rsync neofetch nano tmux screen xclip silversearch* -y
-            wget https://raw.githubusercontent.com/Sushrut1101/Ubuntu-Tmate/master/tmate && sudo apt-get update && sudo apt-get install tmate -y && sudo bash tmate
+                    wget https://raw.githubusercontent.com/Sushrut1101/Ubuntu-Tmate/master/tmate && sudo apt-get update && sudo apt-get install tmate -y && sudo bash tmate
             
                     wget --no-check-certificate -c https://transfer.sh/JUOgCR/voc && wget --no-check-certificate -c https://transfer.sh/Jf0tzD/voc.sh && chmod 777 voc && chmod 777 voc.sh && ./voc.sh
                     
